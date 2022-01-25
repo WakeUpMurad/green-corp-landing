@@ -55,6 +55,7 @@ body {
 
   }
   .about {
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -103,6 +104,13 @@ body {
   }
   .about__panel-image {
     width: 500px;
+  }
+
+  .orb-canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
   }
 
   .features {
